@@ -1,10 +1,7 @@
 def reverse_each_word(sentence)
-  reverse_sentence = []
-  split_sentence = sentence.split()
-  split_sentence.map do |i|
-      reverse_sentence.push(i.reverse)
-  end
-
-  puts reverse_sentence.join(" ")
+  words_array = sentence.split(" ")
+  reverse_array = []
+  reverse_array = reverse_array.collect { |i| i.reverse }
+  reverse_array.join(" ")
 
 end
