@@ -8,10 +8,3 @@ def reverse_each_word(sentence)
   puts reverse_sentence.join(" ")
 
 end
-
-reverse_each_word(sentence)
-
-
-
-
-  
